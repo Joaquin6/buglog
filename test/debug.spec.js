@@ -1,11 +1,11 @@
 /* global describe, it, context, beforeEach */
 'use strict';
 
-let chai;
-let expect;
-let debug;
-let sinon;
-let sinonChai;
+var chai;
+var expect;
+var debug;
+var sinon;
+var sinonChai;
 
 if (typeof module !== 'undefined') {
   chai = require('chai');
@@ -19,7 +19,7 @@ if (typeof module !== 'undefined') {
 
 
 describe('debug', function () {
-  const log = debug('test');
+  var log = debug('test');
 
   log.log = sinon.stub();
 
@@ -47,7 +47,7 @@ describe('debug', function () {
   });
 
   describe('custom functions', function () {
-    const log;
+    var log;
 
     beforeEach(function () {
       debug.enable('test');
