@@ -11,7 +11,7 @@ if (typeof module !== 'undefined') {
   chai = require('chai');
   expect = chai.expect;
 
-  debug = require('../src/index');
+  debug = require('../src/debug');
   sinon = require('sinon');
   sinonChai = require("sinon-chai");
   chai.use(sinonChai);
