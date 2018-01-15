@@ -1,27 +1,36 @@
 {
   "name": "buglog",
   "version": "1.0.0",
+  "author": "Joaquin Briceno <joaquinbriceno1@gmail.com> (joaquinbriceno.com)",
+  "homepage": "https://github.com/Joaquin6/buglog#readme",
   "description": "A tiny node.js debugging utility modelled after node core's debugging technique.",
   "main": "./src/index.js",
   "browser": "./src/browser.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Joaquin6/buglog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Joaquin6/buglog/issues"
   },
   "keywords": [
     "debug",
     "node",
     "logger"
   ],
-  "author": "Joaquin Briceno <joaquinbriceno1@gmail.com> (joaquinbriceno.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joaquin6/buglog/issues"
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
   },
-  "homepage": "https://github.com/Joaquin6/buglog#readme",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules/.bin/eslint src test"
+  },
   "dependencies": {
     "ms": "^2.1.1"
   },

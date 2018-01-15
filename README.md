@@ -1,5 +1,5 @@
 # BUGLOG
-[![Build Status](https://travis-ci.org/Joaquin6/debug.svg?branch=master)](https://travis-ci.org/Joaquin6/debug)  [![Coverage Status](https://coveralls.io/repos/github/Joaquin6/debug/badge.svg?branch=master)](https://coveralls.io/github/Joaquin6/debug?branch=master)
+<!-- [![Build Status](https://travis-ci.org/Joaquin6/debug.svg?branch=master)](https://travis-ci.org/Joaquin6/debug)  [![Coverage Status](https://coveralls.io/repos/github/Joaquin6/debug/badge.svg?branch=master)](https://coveralls.io/github/Joaquin6/debug?branch=master) -->
 
 A tiny node.js debugging utility modeled after node core's debugging technique.
 
