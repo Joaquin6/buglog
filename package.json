@@ -42,9 +42,7 @@
     "posttest": "yarn lint",
     "lint": "node_modules/.bin/eslint src test"
   },
-  "dependencies": {
-    "ms": "^2.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-plugin-istanbul": "^4.1.5",
     "babel-register": "^6.26.0",

@@ -1,4 +1,5 @@
 var path = require('path');
+
 var debug = require('./debug');
 var appName = require(path.join(process.cwd(), 'package.json')).name;
 
