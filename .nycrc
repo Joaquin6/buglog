@@ -1,0 +1,28 @@
+{
+  "description": "Buglog Code Coverage Summary",
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 60,
+    "statements": 60,
+    "functions": 60,
+    "branches": 40,
+    "watermarks": {
+      "lines": [50, 95],
+      "functions": [50, 95],
+      "branches": [40, 95],
+      "statements": [50, 95]
+    },
+    "include": [
+      "src/**/*.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "require": [ "babel-register" ],
+    "cache": true,
+    "all": true
+  }
+}
