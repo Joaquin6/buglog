@@ -1,0 +1,27 @@
+{
+  "name": "Joaquin6-debug",
+  "main": "./src/browser.js",
+  "homepage": "https://github.com/Joaquin6/debug",
+  "authors": [
+    "Joaquin Briceno <joaquinbriceno1@gmail.com> (joaquinbriceno.com)",
+  ],
+  "description": "Joaquin6-debug",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "Joaquin6",
+    "debug"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
